@@ -1,0 +1,11 @@
+Script started on Tue Oct 28 15:24:17 2025
+]0;ethfass@r1n03.darwin:~/CISC372_Project_EF[?1034h[ethfass@r1n03 CISC372_Project_EF]$ srun ./image_pthreads pic1.jpg edge 4
+pthreads: 4 threads, 0.239 seconds
+Wrote output.png
+]0;ethfass@r1n03.darwin:~/CISC372_Project_EF[ethfass@r1n03 CISC372_Project_EF]$ srun ./image_omp pic1.jpg edge $OMP_NUM_THREADS
+openmp: 4 threads, 0.280 seconds
+Wrote output.png
+]0;ethfass@r1n03.darwin:~/CISC372_Project_EF[ethfass@r1n03 CISC372_Project_EF]$ exit
+exit
+
+Script done on Tue Oct 28 15:24:35 2025
